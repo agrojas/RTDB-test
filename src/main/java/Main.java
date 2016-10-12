@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         String keyPaths = "service-account.json";
         String dbUrl = "https://agrojas-e19a9.firebaseio.com/";
-        String node = "users";
+        String node = "users3";
 
         MessagesHelper messagesHelper = new MessagesHelper();
         Map<String, Message> messages = messagesHelper.getMockMessages();
